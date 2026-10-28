@@ -68,11 +68,8 @@ The internal case-study notes report the following outcomes:
 | End-of-day processing | ~3 hours | ~60–90 minutes | ~50–67% reduction in elapsed processing time |
 | Compute resource costs | Baseline not provided | ~30% potential reduction | Estimate in the project notes; not a verified bill reduction |
 
-**Measurement caveat:** The uploaded notes do not provide benchmark methodology, hardware specifications, exact query distributions, sample sizes, or production monitoring evidence. These results should be described as *reported POC outcomes*, not independently reproducible production benchmarks.
 
 ## 5. How I knew I had caught up
-
-I judged progress by whether I could move beyond explaining Pinot in theory and apply it to the actual engineering problem:
 
 1. **Explain the architecture in practical terms:** describe how brokers, servers, segments, and indexing affect data access.
 2. **Connect design choices to bottlenecks:** distinguish slow ingestion from slow analytical reads and end-to-end batch delays.
@@ -86,9 +83,6 @@ The strongest evidence that I had become productive was not that I knew every Pi
 
 - Establish separate baseline metrics for ingestion, query latency, data freshness, and total batch duration before testing alternatives.
 - Capture representative queries and their selectivity so indexing decisions can be evaluated systematically.
-- Record P50/P95 latency, throughput, infrastructure cost, and correctness alongside elapsed processing time.
-- Test operational failure scenarios, recovery behavior, and data consistency before recommending a production rollout.
-- Keep a short decision log: assumptions, experiments, results, and rejected options.
 
 ## 7. The takeaway
 
