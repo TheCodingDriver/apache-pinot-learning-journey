@@ -74,4 +74,6 @@ The internal case-study notes report the following outcomes:
 
 This experience taught me how to become productive in an unfamiliar technology quickly: **anchor learning to a real bottleneck, acquire the minimum architecture knowledge needed, test assumptions with a focused POC, revise the mental model when it is too simplistic, and demonstrate progress through measurable outcomes and knowledge sharing.**
 
+Looking back, I realized I should not have started exploring Apache Pinot entirely on my own. A better approach would have been to identify the key tasks early, divide responsibilities among team members based on their strengths, and collaborate to accelerate learning and deliver the POC more efficiently
+
 ---
