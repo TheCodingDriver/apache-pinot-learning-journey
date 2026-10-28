@@ -45,8 +45,6 @@ I moved from conceptual reading to a workload-specific proof of concept: investi
 
 ## 3. What I got wrong early — and how my understanding changed
 
-**Suggested reflection — verify that this matches your actual experience before publishing:**
-
 My initial mental model was too broad: I thought of Pinot primarily as a way to make *batch processing itself* faster. That was an oversimplification. Pinot is optimized for **low-latency analytical queries**; it is not a drop-in replacement for every batch-processing engine, transactional database, or application cache.
 
 The more useful question became: **Which part of the end-to-end workflow is slow, and can moving the relevant analytical reads into Pinot remove that bottleneck?**
