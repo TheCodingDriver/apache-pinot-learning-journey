@@ -1,4 +1,3 @@
-# Wellington-Management
 # Learning Apache Pinot Under Pressure: From Unfamiliar Technology to a Performance-Focused POC
 
 ## Executive summary
