@@ -69,17 +69,7 @@ The internal case-study notes report the following outcomes:
 | Compute resource costs | Baseline not provided | ~30% potential reduction | Estimate in the project notes; not a verified bill reduction |
 
 
-## 5. How I knew I had caught up
-
-1. **Explain the architecture in practical terms:** describe how brokers, servers, segments, and indexing affect data access.
-2. **Connect design choices to bottlenecks:** distinguish slow ingestion from slow analytical reads and end-to-end batch delays.
-3. **Build and evaluate a POC:** translate the hypothesis into a working investigation with measurable outcomes.
-4. **Communicate trade-offs:** discuss why Pinot could help analytical workloads while adding operational overhead and not replacing Oracle's transactional role.
-5. **Transfer the learning:** document best practices and share the findings with cross-functional colleagues.
-
-The strongest evidence that I had become productive was not that I knew every Pinot feature. It was that I could **use a previously unfamiliar system to test an architectural hypothesis, explain the results, and help the team make a more informed engineering decision**.
-
-## 6. What I would do differently next time
+## 5. What I would do differently next time
 
 - Establish separate baseline metrics for ingestion, query latency, data freshness, and total batch duration before testing alternatives.
 - Capture representative queries and their selectivity so indexing decisions can be evaluated systematically.
