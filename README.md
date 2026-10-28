@@ -32,11 +32,11 @@ I first framed the problem in terms of **data freshness, ingestion time, query l
 
 I focused on the components that mattered to the use case:
 
-Controller 
-Broker 
-Server and segments 
-Offline and real-time ingestion 
-Columnar storage and indexes 
+Controller, 
+Broker, 
+Server and segments, 
+Offline and real-time ingestion, 
+Columnar storage and indexes, 
 Operational overhead 
 
 ### Turn the learning into a concrete POC
