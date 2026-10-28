@@ -95,7 +95,3 @@ The strongest evidence that I had become productive was not that I knew every Pi
 This experience taught me how to become productive in an unfamiliar technology quickly: **anchor learning to a real bottleneck, acquire the minimum architecture knowledge needed, test assumptions with a focused POC, revise the mental model when it is too simplistic, and demonstrate progress through measurable outcomes and knowledge sharing.**
 
 ---
-
-### Scope and confidentiality
-
-This write-up is a high-level account of an internal proof of concept. It intentionally excludes proprietary schemas, customer data, credentials, infrastructure details, and source code. The quantitative outcomes are taken from project notes and are not presented as public, independently verified benchmarks. Confirm that your employer/client permits publication of the project name and metrics before sharing this repository publicly.
