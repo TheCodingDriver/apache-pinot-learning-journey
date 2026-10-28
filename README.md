@@ -1,4 +1,4 @@
-# Wellington-Management[README.md](https://github.com/user-attachments/files/34054474/README.md)
+# Wellington-Management
 # Learning Apache Pinot Under Pressure: From Unfamiliar Technology to a Performance-Focused POC
 
 ## Executive summary
