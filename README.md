@@ -74,7 +74,7 @@ The internal case-study notes report the following outcomes:
 - Establish separate baseline metrics for ingestion, query latency, data freshness, and total batch duration before testing alternatives.
 - Capture representative queries and their selectivity so indexing decisions can be evaluated systematically.
 
-## 7. The takeaway
+## 6. The takeaway
 
 This experience taught me how to become productive in an unfamiliar technology quickly: **anchor learning to a real bottleneck, acquire the minimum architecture knowledge needed, test assumptions with a focused POC, revise the mental model when it is too simplistic, and demonstrate progress through measurable outcomes and knowledge sharing.**
 
