@@ -3,11 +3,15 @@
 
 ## Executive summary
 
-While working on **Limit Central**, a market-risk limits platform, I investigated **Apache Pinot**, a distributed OLAP datastore that was new to me, as a way to improve data availability for front-office users and risk managers. The existing workflow involved loading and accessing a large daily dataset through a cache and downstream processing. That created delays between the arrival of data and its availability for decisions.
+One of the interesting challenges I worked on was during my time on the Limit Central project, a market-risk management application used by front-office teams and risk managers.
 
-Rather than treating Pinot as simply a faster database, I learned how its **ingestion model, segments, columnar storage, indexing, and distributed query execution** mapped to the actual bottleneck. I helped evaluate and develop a proof of concept (POC), documented the approach, and shared the findings with colleagues.
+We were dealing with a large volume of data, approximately 99 million records every day. Our existing process involved loading this data into a cache, performing calculations and transformations, and making the processed information available to users.
 
-The project notes report approximately **99 million records per day**, a reduction in **data-loading time from roughly two hours to about 20 minutes** in the POC, and a reduction in **end-of-day processing from approximately three hours to 60–90 minutes**. These figures describe different stages of the workflow and should not be treated as interchangeable. The notes also estimate potential compute-cost savings of about **30%**, rather than documenting audited realized savings.
+The challenge was the amount of time this process was taking. Loading the data into the cache alone took close to two hours, and the overall processing cycle could take several hours.
+
+For a risk-management application, this delay was significant because users needed access to the latest information to make timely decisions.
+
+We started exploring whether there was a better way to handle large-volume data retrieval, and that was when Apache Pinot came into the picture.
 
 ## 1. The challenge: why I needed to learn quickly
 
