@@ -32,14 +32,12 @@ I first framed the problem in terms of **data freshness, ingestion time, query l
 
 I focused on the components that mattered to the use case:
 
-| Concept | What I needed to understand |
-|---|---|
-| Controller | How cluster metadata and table configuration are managed |
-| Broker | How incoming queries are routed to servers |
-| Server and segments | How data is stored and queries are executed |
-| Offline and real-time ingestion | How historical/batch and streaming data can become queryable |
-| Columnar storage and indexes | Why selective filters and aggregations can be much faster |
-| Operational overhead | What cluster management and additional infrastructure would cost |
+Controller 
+Broker 
+Server and segments 
+Offline and real-time ingestion 
+Columnar storage and indexes 
+Operational overhead 
 
 ### Turn the learning into a concrete POC
 
