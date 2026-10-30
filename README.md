@@ -61,7 +61,7 @@ The internal case-study notes report the following outcomes:
 |---|---:|---:|---|
 | Daily record volume | ~99 million | ~99 million | Scale of the use case, not a performance improvement |
 | Data loading | ~2 hours | ~40 minutes | ~65% reduction in elapsed loading time |
-| End-of-day processing | ~3 hours | ~90–120 minutes | ~50–67% reduction in elapsed processing time |
+| End-of-day processing | ~3 hours | ~90–120 minutes | ~35–50% reduction in elapsed processing time |
 | Compute resource costs | Baseline not provided | ~30% potential reduction | Estimate in the project notes; not a verified bill reduction |
 
 
